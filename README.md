@@ -15,7 +15,7 @@ dynamic filters based on the names of the properties of a class.
 So I decided to create a lib to convert queries passed by query strings
 in urls into instructions to be injected into queries processed by MyBatis.
 
-** About this example **
+**About this example**
 
 This example has an embedded postgres database that will run on port 5432.
 
