@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="br.com.tamawilson.mybatisquerybuilderexample.mapper.BarMapper">
+<resultMap id="barMap" type="br.com.tamawilson.mybatisquerybuilderexample.model.Bar">
+    <id property="id" column="aaa01_id"/>
+    <result property="id" column="aaa01_id"/>
+    <result property="comments" column="aaa01_comments"/>
+</resultMap>
+
+</mapper>
